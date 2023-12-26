@@ -1,7 +1,7 @@
 👋  Hi, <br>
-I’m Jeremie Robeerini
+I’m Jeremie Roberrini
 
-UX Designer in Stockholm, like dancing, visiting places and just relaxing. <br>
+UX Designer in Stockholm, likes dancing, visiting places and just relaxing. <br>
 Learning a bit of code here and there 
 
 [Design Portfolio](https://jeremie.roberrini.com/)
