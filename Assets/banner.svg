@@ -8,7 +8,7 @@
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;-55,80;0,0"
                 repeatCount="indefinite"
             />
@@ -19,7 +19,7 @@
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;55,-80;0,0"
                 repeatCount="indefinite"
             />
@@ -27,46 +27,46 @@
 
         <g>
             <rect id="lightleft" x="-170" y="106.79" width="386.493" height="322.643" rx="113.431"
-                transform="rotate(-8 -170 106.79)" fill="#DAEAEB" />
+                transform="rotate(-8 -170 106.79)" fill="#DAEAEB" fill-opacity="0.5" />
                 <animateTransform
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;-55,10;0,0"
                 repeatCount="indefinite"
             />
         </g>
         <g>
             <rect id="lightright" x="1490.16" y="-180" width="463.491" height="463.432" rx="113.431"
-                transform="rotate(28.3632 1490.16 -180)" fill="#DAEAEB" />
+                transform="rotate(28.3632 1490.16 -180)" fill="#DAEAEB" fill-opacity="0.5"/>
                 <animateTransform
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;-10,100;0,0"
                 repeatCount="indefinite"
             />
         </g>
         <g>
-            <circle id="darkright" cx="1584" cy="-25" r="228" fill="#B3DADC" />
+            <circle id="darkright" cx="1584" cy="-25" r="228" fill="#B3DADC" fill-opacity="0.8" />
             <animateTransform
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;-20,-40;0,0"
                 repeatCount="indefinite"
             />
         </g>
         <g>
-            <circle id="darkleft" cx="509" cy="-57" r="228" fill="#B3DADC" />
+            <circle id="darkleft" cx="509" cy="-57" r="228" fill="#B3DADC" fill-opacity="0.8" />
             <animateTransform
             attributeName="transform"
             attributeType="XML"
             type="translate"
-            dur="10s"
+            dur="20s"
             values="0,0;-10,-30;0,0"
             repeatCount="indefinite"
         />
@@ -84,7 +84,7 @@
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="5s"
+                dur="10s"
                 values="0,0;25,10;0,0"
                 repeatCount="indefinite"
             />
@@ -160,7 +160,7 @@
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="7.5s"
+                dur="15s"
                 values="0,0;-10,15;0,0"
                 repeatCount="indefinite"
             />
@@ -179,7 +179,7 @@
                 attributeName="transform"
                 attributeType="XML"
                 type="translate"
-                dur="10s"
+                dur="20s"
                 values="0,0;15,-10;0,0"
                 repeatCount="indefinite"
             />
