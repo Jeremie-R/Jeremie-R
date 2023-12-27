@@ -27,7 +27,7 @@
 
         <g>
             <rect id="lightleft" x="-170" y="106.79" width="386.493" height="322.643" rx="113.431"
-                transform="rotate(-8 -170 106.79)" fill="#DAEAEB" fill-opacity="0.5" />
+                transform="rotate(-8 -170 106.79)" fill="#DAEAEB" fill-opacity="0.7" />
                 <animateTransform
                 attributeName="transform"
                 attributeType="XML"
@@ -39,7 +39,7 @@
         </g>
         <g>
             <rect id="lightright" x="1490.16" y="-180" width="463.491" height="463.432" rx="113.431"
-                transform="rotate(28.3632 1490.16 -180)" fill="#DAEAEB" fill-opacity="0.5"/>
+                transform="rotate(28.3632 1490.16 -180)" fill="#DAEAEB" fill-opacity="0.7"/>
                 <animateTransform
                 attributeName="transform"
                 attributeType="XML"
@@ -50,7 +50,7 @@
             />
         </g>
         <g>
-            <circle id="darkright" cx="1584" cy="-25" r="228" fill="#B3DADC" fill-opacity="0.8" />
+            <circle id="darkright" cx="1584" cy="-25" r="228" fill="#B3DADC" fill-opacity="0.85" />
             <animateTransform
                 attributeName="transform"
                 attributeType="XML"
@@ -61,7 +61,7 @@
             />
         </g>
         <g>
-            <circle id="darkleft" cx="509" cy="-57" r="228" fill="#B3DADC" fill-opacity="0.8" />
+            <circle id="darkleft" cx="509" cy="-57" r="228" fill="#B3DADC" fill-opacity="0.85" />
             <animateTransform
             attributeName="transform"
             attributeType="XML"
