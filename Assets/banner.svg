@@ -224,7 +224,7 @@
                 result="shape" />
         </filter>
         <clipPath id="clip0_1478_118628">
-            <rect width="1680" height="240" fill="white" />
+            <rect width="1680" height="240" rx="24" fill="white" />
         </clipPath>
     </defs>
 </svg>
