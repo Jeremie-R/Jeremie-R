@@ -1,4 +1,4 @@
-[![banner](https://jeremie-r.github.io/Assets/banner.svg)](https://jeremie.roberrini.com/)
+[![banner](./Assets/banner.svg)](https://jeremie.roberrini.com/)
 
 👋  Hi, <br>
 I’m Jeremie Roberrini
