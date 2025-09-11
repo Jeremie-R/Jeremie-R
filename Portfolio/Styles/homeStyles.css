@@ -1,5 +1,7 @@
 .hero {
     padding-top: 250px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .title {
@@ -8,9 +10,34 @@
     justify-content: center;
     gap: 1.125rem;
     margin-top: 1.125rem;
+    width: 100%;
 }
 
 .titlebox {
     min-width: 350px;
     
+}
+
+.project-section {
+    display: flex;
+    padding: 0 2rem;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-section img {
+    border-radius: 8px;
+    width: 50%;
+    margin: 1rem;
+    max-width: 480px
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 50%;
+    gap: 1.5rem;
+    min-width: 320px;
 }

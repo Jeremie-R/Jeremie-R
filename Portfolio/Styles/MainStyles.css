@@ -23,6 +23,7 @@ p {
     color: #747474;
     line-height: 150%;
     font-weight: 300;
+    max-width: 600px;
 }
 
 
@@ -50,6 +51,14 @@ button {
 
 .button-transparent.active {
     color: #383838;
+}
+
+.social {
+    border-radius: 64px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -108,4 +117,26 @@ ul {
 
 .right-text {
     text-align: right;
+}
+
+/* social list for all pages */
+
+.social-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/* divider */
+
+.divider {
+    display: flex;
+    width: 100%;
+    padding-top: 9.75rem;
+    padding-bottom: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+.divider img {
+    max-width: 80%;
 }
