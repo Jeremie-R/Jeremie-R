@@ -68,6 +68,14 @@ ul {
     display: flex;
 }
 
+li {
+    width: fit-content;
+}
+
+a {
+    width: fit-content;
+}
+
 
 /* menu -> used for all pages */
 .menu-container {
