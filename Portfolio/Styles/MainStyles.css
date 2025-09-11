@@ -5,6 +5,27 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* text styles */
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #383838;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #383838;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #747474;
+    line-height: 150%;
+    font-weight: 300;
+}
+
+
 /* buttons */
 
 button {
@@ -65,4 +86,26 @@ ul {
     flex-direction: row;
     gap: 0.5rem;
 
+}
+
+/* div property */
+
+.centered-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/* text property */
+
+.centered-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
 }

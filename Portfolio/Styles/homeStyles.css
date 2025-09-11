@@ -1,0 +1,16 @@
+.hero {
+    padding-top: 250px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.125rem;
+    margin-top: 1.125rem;
+}
+
+.titlebox {
+    min-width: 350px;
+    
+}
