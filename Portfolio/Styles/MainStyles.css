@@ -98,6 +98,8 @@ li {
 
 a {
     width: fit-content;
+    text-decoration: solid;
+    color: #3A49E7;
 }
 
 
@@ -199,5 +201,19 @@ footer {
     align-items: center;
 }
 
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: left;
+}
+
+.footer-list {
+    flex-direction: column;
+}
+
+.footer {
+    padding-left: 0.5rem;
+}
 
 
