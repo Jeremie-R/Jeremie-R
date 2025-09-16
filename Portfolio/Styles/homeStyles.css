@@ -15,7 +15,6 @@
 
 .titlebox {
     min-width: 350px;
-    
 }
 
 .project-section {
@@ -65,3 +64,65 @@
     max-width: 800px;
 }
 
+
+@media only screen and (max-width: 800px) {
+    .title {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titlebox {
+        width: 100%;
+        text-align: center;
+        min-width: 0px;
+    }
+
+    .project-section {
+        padding: 0 1rem;
+        gap: 1rem;
+    }
+
+    .project-secton img {
+        margin: 0.5rem;
+        width: 35%;
+    }
+
+    .project-list {
+        max-width: 100%;
+        width: 60%;
+        margin: 0.5rem;
+    }
+
+    .testimonial-div {
+        padding: 0 1.5rem 100px 1.5rem;
+        gap: 4rem;
+    }
+
+    .testimonial img {
+        width: 24px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .project-section {
+        flex-direction: column-reverse;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .project-section img {
+        display: none;
+    }
+    .project-list {
+        width: 100%;
+    }
+    .project-list li {
+        width: 100%;
+    }
+
+
+}
