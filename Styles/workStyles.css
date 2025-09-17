@@ -1,4 +1,28 @@
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .hero {
     padding-top: 8rem;
     padding-bottom: 4rem;
+}
+
+.project-div {
+    padding: 1.5rem;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projects-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
 }
