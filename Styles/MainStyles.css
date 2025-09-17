@@ -107,6 +107,13 @@ a {
     color: var(--primary);
 }
 
+.grey-link {
+    color: var(--grey);
+}
+
+.grey-link:hover {
+    color: var(--dark)
+}
 
 
 
