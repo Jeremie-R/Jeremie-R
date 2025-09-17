@@ -23,6 +23,11 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    font-size: 1,125rem;
+    font-weight: 400;
+}
+
 p {
     font-size: 1.125rem;
     color: var(--grey);
