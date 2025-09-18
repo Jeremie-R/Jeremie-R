@@ -33,7 +33,7 @@ p {
     color: var(--grey);
     line-height: 150%;
     font-weight: 300;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 .dark {
