@@ -17,7 +17,7 @@
 
 .project-div {
     padding: 1.5rem;
-    width: 800px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -29,4 +29,24 @@
     flex-direction: row;
     gap: 2rem;
     justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.community-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1.125rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .projects-group {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
 }
