@@ -1,12 +1,6 @@
 
 
-.centered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+
 
 
 
@@ -17,7 +11,7 @@
 
 .project-div {
     padding: 1.5rem;
-    max-width: 800px;
+    max-width: 832px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
