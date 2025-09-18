@@ -1,0 +1,24 @@
+.project-div {
+    padding: 1.5rem;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projects-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .projects-group {
+        flex-wrap: wrap;
+    }
+
+}
