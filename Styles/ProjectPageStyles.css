@@ -1,6 +1,89 @@
 
 
 
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hero-image-div {
+    flex-grow: 1;
+
+}
+
+.hero-image {
+    border-radius: 24px;
+    margin: 4rem;
+    height: 38rem;
+    background-color: var(--light-grey);
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 320px;
+    justify-content: flex-end;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+}
+
+
+.inverted-color-div {
+    background-color: var(--dark);
+    color: white;
+    padding: 10rem 1.5rem 10rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inverted-color-div h2 {
+    color: white;
+    width: 100%;
+    max-width: 600px;
+}
+
+.inverted-color-div p {
+    color: var(--light-grey);
+    width: 100%;
+    max-width: 600px;
+}
+
+.img-greybg{
+    background-color: var(--light-grey);
+    border-radius: 12px;
+}
+
+
+.images-div {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.img-expand {
+    height: 22rem;
+    flex-grow: 1;
+}
+
+.img-fix {
+    height: 22rem;
+    max-width: 22rem;
+    width: 100%;
+}
+
+
 
 .project-div {
     padding: 1.5rem;
@@ -24,4 +107,30 @@
     flex-direction: column;
     padding-top: 1rem;
     gap: 1.125rem;
+}
+
+@media only screen and (max-width: 800px) {
+    
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        margin: 4rem 1.5rem 1rem 1.5rem;
+        height: 26rem;
+    }
+
+    .hero-text {
+        padding: 1.5rem;
+    }
+
+    .img-row {
+        flex-direction: column;
+    }
+
+    .img-fix { 
+        max-width: none;
+    }
+
 }
