@@ -1,0 +1,27 @@
+
+
+
+
+.project-div {
+    padding: 1.5rem;
+    max-width: 832px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projects-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.community-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1.125rem;
+}
