@@ -16,12 +16,12 @@ snow.addEventListener("mouseleave", () => { ResetImage()})
 
 
 let leikir = document.getElementById("leikir")
-leikir.addEventListener("mouseenter", () => { ChangeImage("b.svg")})
+leikir.addEventListener("mouseenter", () => { ChangeImage("leikirthumbnail.png")})
 leikir.addEventListener("mouseleave", () => { ResetImage()})
 
 
 let biekos = document.getElementById("biekos")
-biekos.addEventListener("mouseenter", () => { ChangeImage("a.svg")})
+biekos.addEventListener("mouseenter", () => { ChangeImage("biekosthumbnail.png")})
 biekos.addEventListener("mouseleave", () => { ResetImage()})
 
 
