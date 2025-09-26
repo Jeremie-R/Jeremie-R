@@ -11,7 +11,7 @@ gigapay.addEventListener("mouseleave", () => { ResetImage()})
 
 
 let snow = document.getElementById("snow")
-snow.addEventListener("mouseenter", () => { ChangeImage("a.svg")})
+snow.addEventListener("mouseenter", () => { ChangeImage("snowthumbnail.png")})
 snow.addEventListener("mouseleave", () => { ResetImage()})
 
 
