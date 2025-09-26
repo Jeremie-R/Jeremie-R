@@ -6,7 +6,7 @@ pg.addEventListener("mouseleave", () => { ResetImage()})
 
 
 let gigapay = document.getElementById("gigapay")
-gigapay.addEventListener("mouseenter", () => { ChangeImage("b.svg")})
+gigapay.addEventListener("mouseenter", () => { ChangeImage("gigadesignthumbnail.png")})
 gigapay.addEventListener("mouseleave", () => { ResetImage()})
 
 
