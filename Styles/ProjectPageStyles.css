@@ -133,4 +133,8 @@
         max-width: none;
     }
 
+    .projects-group {
+        flex-wrap: wrap;
+    }
+
 }
