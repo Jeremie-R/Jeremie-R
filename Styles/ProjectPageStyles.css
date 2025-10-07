@@ -29,6 +29,25 @@
     padding-right: 4rem;
 }
 
+.content-div {
+    padding: 10rem 1.5rem 10rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-div h2 {
+    width: 100%;
+    max-width: 600px;
+}
+
+.content-div p {
+    width: 100%;
+    max-width: 600px;
+}
+
+
 
 .inverted-color-div {
     background-color: var(--dark);
