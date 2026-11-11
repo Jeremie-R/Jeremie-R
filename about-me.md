@@ -26,7 +26,7 @@ I didn't start in design. I studied economics and international trade, then spen
 
 ## ✦ Where I've lived
 
-<img src="assets/cards/journey.svg" width="100%" alt="Journey map: Réunion, Bordeaux, Paris, London, Amsterdam, Stockholm, Malmö">
+<img src="assets/cards/journey.svg" width="100%" alt="Journey map: Réunion, Bordeaux, Paris, London, Amsterdam, Stockholm, then Malmö for Position Green and Nederman">
 
 Every move came with a new way of doing things. Moving around taught me that there's rarely one right way to work, which is a useful thing to remember in a design critique.
 

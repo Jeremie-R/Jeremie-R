@@ -109,6 +109,12 @@ def svg_uri(path):
     return "data:image/svg+xml;base64," + base64.b64encode(Path(path).read_bytes()).decode()
 
 
+def face_uri(color):
+    """The little avatar from the portfolio, recoloured to a single colour."""
+    svg = (A / "icons" / "miniface-yellow.svg").read_text().replace("#E2F126", color)
+    return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
+
+
 def write(name, w, h, body, weights=(400, 500), title=""):
     svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
@@ -269,7 +275,7 @@ JOURNEY = [
     ("London", "client management", LIME),
     ("Amsterdam", "switched to UX at Ironhack", PINK),
     ("Stockholm", "Snow Software, Gigapay", YELLOW),
-    ("Malmö", "Position Green, home today", TEAL),
+    ("Malmö", "Position Green, Nederman", TEAL),
 ]
 
 POLAROIDS = [
@@ -309,7 +315,7 @@ def banner():
 
 def feature_cards():
     W, H = 420, 220
-    face = svg_uri(A / "icons" / "miniface-yellow.svg")
+    face = face_uri(WHITE)
     # Portfolio
     body = card_frame("pf", W, H, INK)
     body += '<g clip-path="url(#pf)">'
@@ -421,7 +427,7 @@ def app_cards():
 
 def resource_illustration(key):
     if key == "about":
-        face = svg_uri(A / "icons" / "miniface-yellow.svg")
+        face = face_uri(INK)
         return (
             float_y(f'<circle cx="68" cy="75" r="42" fill="{PINK}"/>', 4, 5)
             + f'<image href="{face}" x="38" y="45" width="60" height="60"/>'
